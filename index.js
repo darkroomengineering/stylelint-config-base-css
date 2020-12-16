@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    "stylelint-config-standard", // or whatever you chose as your base config
+    "stylelint-config-standard",
     "stylelint-prettier/recommended"
   ],
   plugins: ["stylelint-high-performance-animation"],
