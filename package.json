@@ -1,10 +1,13 @@
 {
   "name": "@studio-freight/stylelint-config-base-css",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "main": "index.js",
   "repository": "https://github.com/studio-freight/stylelint-config-base-css.git",
   "author": "Franco Arza <franco@studiofreight.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@studio-freight/eslint-config-base-js": "^1.1.5",
     "prettier": "^2.2.1",
