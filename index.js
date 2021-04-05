@@ -6,6 +6,7 @@ module.exports = {
   plugins: ["stylelint-high-performance-animation"],
   ignoreFiles: ["./next/**", "./dist/**"],
   rules: {
+    "value-keyword-case": null,
     "no-descending-specificity": null,
     "plugin/no-low-performance-animation-properties": true,
     // make Prettier return errors
