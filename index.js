@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    "stylelint-config-standard",
-    "stylelint-prettier/recommended"
-  ],
-  customSyntax: "postcss-scss",
+  extends: ["stylelint-config-standard", "stylelint-prettier/recommended"],
   plugins: ["stylelint-high-performance-animation"],
   ignoreFiles: ["./next/**", "./dist/**"],
   rules: {
@@ -21,8 +17,8 @@ module.exports = {
         singleQuote: false,
         trailingComma: "none",
         jsxBracketSameLine: false,
-        semi: false
-      }
-    ]
-  }
-}
+        semi: false,
+      },
+    ],
+  },
+};
