@@ -16,7 +16,7 @@ module.exports = {
         printWidth: 80,
         singleQuote: false,
         trailingComma: "none",
-        jsxBracketSameLine: false,
+        bracketSameLine: false,
         semi: false,
       },
     ],
