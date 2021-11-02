@@ -3,6 +3,7 @@ module.exports = {
     "stylelint-config-standard",
     "stylelint-prettier/recommended"
   ],
+  customSyntax: "postcss-scss",
   plugins: ["stylelint-high-performance-animation"],
   ignoreFiles: ["./next/**", "./dist/**"],
   rules: {
