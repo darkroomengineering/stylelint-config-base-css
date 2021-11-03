@@ -9,7 +9,6 @@ module.exports = {
     "max-line-length": null,
     "value-keyword-case": null,
     "no-descending-specificity": null,
-    "plugin/no-low-performance-animation-properties": true,
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "alpha-value-notation": null,
