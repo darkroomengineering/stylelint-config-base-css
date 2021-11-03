@@ -1,7 +1,7 @@
 module.exports = {
+  plugins: ["stylelint-scss"],
   extends: ["stylelint-config-standard", "stylelint-prettier/recommended"],
   ignoreFiles: "**/*.js",
-  customSyntax: "postcss-scss",
   rules: {
     "scss/at-import-no-partial-leading-underscore": null,
     "scss/no-global-function-names": null,
@@ -10,6 +10,9 @@ module.exports = {
     "value-keyword-case": null,
     "no-descending-specificity": null,
     "plugin/no-low-performance-animation-properties": true,
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "alpha-value-notation": null,
     "prettier/prettier": [
       true,
       {
@@ -26,6 +29,7 @@ module.exports = {
   overrides: [
     {
       files: ["**/*.scss", "**/*.css"],
+      customSyntax: "postcss-scss",
     },
   ],
 };

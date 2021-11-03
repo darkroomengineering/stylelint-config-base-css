@@ -8,6 +8,7 @@ specifiers:
   stylelint-config-prettier: ^9.0.3
   stylelint-config-standard: ^23.0.0
   stylelint-prettier: ^1.2.0
+  stylelint-scss: ^4.0.0
 
 dependencies:
   '@studio-freight/eslint-config-base-js': 1.1.6
@@ -17,6 +18,7 @@ dependencies:
   stylelint-config-prettier: 9.0.3_stylelint@14.0.1
   stylelint-config-standard: 23.0.0_stylelint@14.0.1
   stylelint-prettier: 1.2.0_prettier@2.4.1+stylelint@14.0.1
+  stylelint-scss: 4.0.0_stylelint@14.0.1
 
 packages:
 
@@ -1175,6 +1177,10 @@ packages:
     resolution: {integrity: sha1-WjUNoLERO4N+z//VgSy+WNbq4ZM=}
     dev: false
 
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
   /lru-cache/6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
@@ -1780,6 +1786,19 @@ packages:
     dependencies:
       prettier: 2.4.1
       prettier-linter-helpers: 1.0.0
+      stylelint: 14.0.1
+    dev: false
+
+  /stylelint-scss/4.0.0_stylelint@14.0.1:
+    resolution: {integrity: sha512-lIRhPqtI6I065EJ6aI4mWKsmQt8Krnu6aF9XSL9s8Nd2f/cDKImST0T9TfjnUul3ReKYWozkG9dlpNTZH2FB9w==}
+    peerDependencies:
+      stylelint: ^14.0.0
+    dependencies:
+      lodash: 4.17.21
+      postcss-media-query-parser: 0.2.3
+      postcss-resolve-nested-selector: 0.1.1
+      postcss-selector-parser: 6.0.6
+      postcss-value-parser: 4.1.0
       stylelint: 14.0.1
     dev: false
 
