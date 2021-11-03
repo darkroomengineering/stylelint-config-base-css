@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@studio-freight/eslint-config-base-js': ^1.1.6
+  postcss-scss: ^4.0.2
   prettier: ^2.4.1
   stylelint: ^14.0.1
   stylelint-config-prettier: ^9.0.3
@@ -11,6 +12,7 @@ specifiers:
 
 dependencies:
   '@studio-freight/eslint-config-base-js': 1.1.6
+  postcss-scss: 4.0.2
   prettier: 2.4.1
   stylelint: 14.0.1
   stylelint-config-prettier: 9.0.3_stylelint@14.0.1
@@ -1462,6 +1464,13 @@ packages:
       postcss: ^8.3.3
     dependencies:
       postcss: 8.3.11
+    dev: false
+
+  /postcss-scss/4.0.2:
+    resolution: {integrity: sha512-xfdkU128CkKKKVAwkyt0M8OdnelJ3MRcIRAPPQkRpoPeuzWY3RIeg7piRCpZ79MK7Q16diLXMMAD9dN5mauPlQ==}
+    engines: {node: '>=12.0'}
+    peerDependencies:
+      postcss: ^8.3.3
     dev: false
 
   /postcss-selector-parser/6.0.6:

@@ -1,16 +1,17 @@
 module.exports = {
   extends: ["stylelint-config-standard", "stylelint-prettier/recommended"],
-  plugins: ["stylelint-high-performance-animation"],
-  ignoreFiles: ["./next/**", "./dist/**"],
+  ignoreFiles: "**/*.js",
   rules: {
+    "scss/at-import-no-partial-leading-underscore": null,
+    "scss/no-global-function-names": null,
+    "at-rule-no-unknown": null,
+    "max-line-length": null,
     "value-keyword-case": null,
     "no-descending-specificity": null,
     "plugin/no-low-performance-animation-properties": true,
-    // make Prettier return errors
     "prettier/prettier": [
       true,
       {
-        // Optional Prettier config changes
         useTabs: false,
         tabWidth: 2,
         printWidth: 80,
@@ -21,4 +22,10 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: ["**/*.scss", "**/*.css"],
+      customSyntax: "postcss-scss",
+    },
+  ],
 };

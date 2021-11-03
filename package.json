@@ -1,6 +1,6 @@
 {
   "name": "@studio-freight/stylelint-config-base-css",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "repository": "https://github.com/studio-freight/stylelint-config-base-css.git",
   "author": "Franco Arza <franco@studiofreight.com>",
@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@studio-freight/eslint-config-base-js": "^1.1.6",
+    "postcss-scss": "^4.0.2",
     "prettier": "^2.4.1",
     "stylelint": "^14.0.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^23.0.0",
-    "stylelint-high-performance-animation": "^1.5.2",
     "stylelint-prettier": "^1.2.0"
   }
 }
