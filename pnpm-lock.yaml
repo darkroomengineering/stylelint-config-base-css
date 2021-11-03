@@ -7,7 +7,6 @@ specifiers:
   stylelint: ^14.0.1
   stylelint-config-prettier: ^9.0.3
   stylelint-config-standard: ^23.0.0
-  stylelint-high-performance-animation: ^1.5.2
   stylelint-prettier: ^1.2.0
 
 dependencies:
@@ -17,7 +16,6 @@ dependencies:
   stylelint: 14.0.1
   stylelint-config-prettier: 9.0.3_stylelint@14.0.1
   stylelint-config-standard: 23.0.0_stylelint@14.0.1
-  stylelint-high-performance-animation: 1.5.2_stylelint@14.0.1
   stylelint-prettier: 1.2.0_prettier@2.4.1+stylelint@14.0.1
 
 packages:
@@ -554,7 +552,7 @@ packages:
       eslint: 7.32.0
       eslint-plugin-es: 3.0.1_eslint@7.32.0
       eslint-utils: 2.1.0
-      ignore: 5.1.8
+      ignore: 5.1.9
       minimatch: 3.0.4
       resolve: 1.20.0
       semver: 6.3.0
@@ -849,7 +847,7 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.2.7
-      ignore: 5.1.8
+      ignore: 5.1.9
       merge2: 1.4.1
       slash: 3.0.0
     dev: false
@@ -917,8 +915,8 @@ packages:
     engines: {node: '>= 4'}
     dev: false
 
-  /ignore/5.1.8:
-    resolution: {integrity: sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==}
+  /ignore/5.1.9:
+    resolution: {integrity: sha512-2zeMQpbKz5dhZ9IwL0gbxSW5w0NK/MSAMtNuhgIHEPmaU3vPdKPL0UdvUCXs5SS4JAwsBxysK5sFMW8ocFiVjQ==}
     engines: {node: '>= 4'}
     dev: false
 
@@ -1773,14 +1771,6 @@ packages:
       stylelint-config-recommended: 6.0.0_stylelint@14.0.1
     dev: false
 
-  /stylelint-high-performance-animation/1.5.2_stylelint@14.0.1:
-    resolution: {integrity: sha512-6LQek7kSBt288ks4ygUUTq+jhm4N2o+MW9HIU1ZL0v0+12fQD2F4nc4nfwhbwk33Ge8lu8dbT4G7+ksp/DgPNw==}
-    peerDependencies:
-      stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0
-    dependencies:
-      stylelint: 14.0.1
-    dev: false
-
   /stylelint-prettier/1.2.0_prettier@2.4.1+stylelint@14.0.1:
     resolution: {integrity: sha512-/MYz6W2CNgKHblPzPtk7cybu8H5dGG3c2GevL64RButERj1uJg4SdBIIat1hMfDOmN6QQpldc6tCc//ZAWh9WQ==}
     engines: {node: '>=6'}
@@ -1810,7 +1800,7 @@ packages:
       globby: 11.0.4
       globjoin: 0.1.4
       html-tags: 3.1.0
-      ignore: 5.1.8
+      ignore: 5.1.9
       import-lazy: 4.0.0
       imurmurhash: 0.1.4
       is-plain-object: 5.0.0

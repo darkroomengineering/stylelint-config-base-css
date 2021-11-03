@@ -1,6 +1,7 @@
 module.exports = {
   extends: ["stylelint-config-standard", "stylelint-prettier/recommended"],
   ignoreFiles: "**/*.js",
+  customSyntax: "postcss-scss",
   rules: {
     "scss/at-import-no-partial-leading-underscore": null,
     "scss/no-global-function-names": null,
@@ -25,7 +26,6 @@ module.exports = {
   overrides: [
     {
       files: ["**/*.scss", "**/*.css"],
-      customSyntax: "postcss-scss",
     },
   ],
 };
