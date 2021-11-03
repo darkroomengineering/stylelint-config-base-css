@@ -21,7 +21,6 @@ module.exports = {
         singleQuote: false,
         trailingComma: "none",
         bracketSameLine: false,
-        semi: false,
       },
     ],
   },
